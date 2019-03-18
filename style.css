@@ -1,0 +1,63 @@
+header{
+    position: fixed;
+    background-color: black;
+    width: 100%;
+}
+body{
+    margin: auto;
+    display: block;
+}
+article{
+    margin-top: 252px;
+}
+#header-img{
+    margin: auto;
+    display: block;
+}
+article{
+    display: block;
+    align-items: center;
+}
+section{
+    display: block;
+}
+a:link,a:visited{
+    background-color:#393939;
+    color:white;
+    padding: 15px 15px;
+    margin: 5px;
+    text-align: center;
+    display: inline-flex;
+    text-decoration: none;
+}
+a:hover{
+    color:#393939;
+    background-color: #5affa2;
+}
+#nav-bar{
+    text-align: center;
+}
+iframe{
+    width:auto;
+    height: auto;
+}
+#qa{
+    height: 250px;
+}
+#pricing{
+    height: 250px;
+}
+#about{
+    height: 250px;
+}
+@media screen and (min-width: 400px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+  @media screen and (min-width: 800px) {
+    body {
+      background-color: white;
+    }
+  }
+  
